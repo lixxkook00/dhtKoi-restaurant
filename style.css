@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* common */
+
+.text-center {
+    text-align: center;
+}
+
+.separator {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.separator:not(:empty)::before {
+    margin-right: 0.8em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: 0.8em;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* main */
+
+
+/* Header */
+
+.header-main {
+    position: fixed;
+    z-index: 1;
+    background: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.header-main .header-logo {
+    position: absolute;
+    height: 50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.header-main .header-logo .logo {
+    margin-top: 5px;
+    height: 40px;
+}
+
+.about-decs.separator {
+    margin-left: 36.5%;
+}
+
+
+/* Silde */
+
+.slide {
+    background: url("./images/IMG_4031.jpg") center / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+
+.slide .slide-heading {
+    position: absolute;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 6px;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+}
+
+
+/* place */
+
+.place-list .place-item {
+    padding: 28px 0 42px 0;
+}
+
+.place-list .place-text {
+    position: relative;
+    margin: 0;
+    display: block;
+    padding: 36px;
+    width: 40%;
+    float: left;
+}
+
+.place-list .place-text-heading {
+    text-align: center;
+    font-size: 40px;
+    opacity: 0.6;
+    padding: 0 0 16px 0;
+    font-family: Tahoma;
+    font-weight: 600;
+}
+
+.place-list .place-text-decs {
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.8;
+    padding: 20px 30px;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.place-list .place-img {
+    display: block;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.place-list .place-img img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+/* main content */
+
+.main-content {
+    padding: 120px 0 60px;
+}
+
+.main-content .about-heading {
+    font-size: 40px;
+    line-height: 1.5;
+    color: #3E3E3E;
+}
+
+.main-content .about-decs {
+    font-size: 14px;
+    color: #B7B7B7;
+    line-height: 1.5;
+}
+
+.main-content .about-dish-list {
+    padding: 0 60px;
+}
+
+.main-content .about-dish {
+    margin: 50px 0;
+    width: 33.33333%;
+    float: left;
+}
+
+.main-content .about-dish-img {
+    width: 170px;
+    height: 171.5px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+}
+
+.main-content .about-dish-heading {
+    font-size: 26px;
+    margin-bottom: 8px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.main-content .about-dish-decs {
+    line-height: 1.7;
+    padding: 0 45px;
+}
+
+
+/* menu */
+
+.menu {
+    border-radius: 20px;
+    margin: 70px 90px;
+    padding: 64px 26px;
+    background-color: rgba(213, 210, 210, 0.2)
+}
+
+.menu-logo {}
+
+.menu-heading {
+    font-size: 40px;
+    padding-top: 22px;
+}
+
+.menu-decs {
+    font-size: 14px;
+}
+
+.menu-list-item {
+    margin: 90px 0 0;
+    width: 40%;
+    display: block;
+    float: left;
+    padding: 0 40px;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.menu .menu-list-heading {
+    font-size: 36px;
+    color: #FD813F;
+    font-weight: 200;
+}
+
+.menu .menu-item-body {
+    position: relative;
+    margin-top: 65px;
+}
+
+.menu .menu-item-heading {
+    margin: 0;
+    width: 50%;
+}
+
+.menu .menu-item-spanrice {
+    position: absolute;
+    right: 0;
+}
+
+.line {
+    opacity: 0.2;
+    height: 32px;
+}
+
+
+/* contact */
+
+.contact {
+    padding: 32px 88px;
+    font-style: italic;
+}
+
+.contact .contact-address {
+    margin: 0;
+    width: 50%;
+    float: left;
+}
+
+.contact .contact-heading {
+    padding: 16px;
+    font-size: 42px;
+    opacity: 0.6;
+    font-style: initial;
+}
+
+.contact .contact-calendar {
+    padding: 16px 64px;
+    line-height: 2;
+}
+
+.contact .calender-item-time {
+    float: right;
+}
+
+.contact .contact-position {
+    padding: 16px 55px;
+    line-height: 2;
+}
+
+.contact .position-heading {
+    font-size: 18px;
+}
+
+.contact .contact-map {
+    margin: 0;
+    width: 50%;
+    float: left;
+}
+
+.contact .contact-map img {
+    width: 100%;
+}
+
+.contact .call-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.contact .button-call {
+    border: none;
+    height: 42px;
+    padding: 0 16px;
+    border-radius: 12px;
+    color: white;
+    background: rgb(18, 193, 18);
+    font-size: 18px;
+}
+
+.contact .button-call:hover {
+    background: lightgreen;
+    color: red;
+}
+
+.fa.fa-phone {
+    font-size: 18px;
+}
+
+
+/* footer */
+
+.footer {
+    background: #393939;
+    height: 20px;
+    color: white;
+    position: relative;
+    padding: 30px;
+    font-style: italic;
+}
+
+.footer .gpkd {
+    position: absolute;
+    left: 32px;
+    display: block;
+}
+
+.footer .slogan {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    color: #FD813F;
+}
+
+.footer .icon {
+    position: absolute;
+    right: 32px;
+    display: block;
+}
+
+.icon i {
+    padding: 5px;
+    font-size: 22px;
+}
+
+.place-list {
+    position: relative;
+}
+
+.place-list:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('https://previews.123rf.com/images/feirin/feirin1802/feirin180200021/96270100-seamless-pattern-with-karp-koi-fish-background-in-hand-drawn-style-for-surface-design-fliers-prints-.jpg');
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}

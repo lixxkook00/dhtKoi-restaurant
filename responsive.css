@@ -1,0 +1,157 @@
+/* pc & laptop */
+
+@media (min-width: 1024px) {
+    .place-list .place-img .place-2-mobile {
+        display: none;
+    }
+    .place-list .place-img .place-2-pc {
+        margin-left: 32px;
+    }
+}
+
+
+/* ipad */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .place-list .place-item {
+        padding: 0;
+    }
+    .place-list .place-text {
+        padding: 0;
+        width: 50%;
+    }
+    .place-list .place-img img {
+        width: 80%;
+        border-radius: 5%;
+        padding: 16px 32px;
+        border-radius: 15%;
+    }
+    .place-list .place-img .place-2-mobile {
+        display: none;
+    }
+    .main-content .about-dish-list {
+        padding: 0 26px;
+    }
+    .menu {
+        border-radius: 20px;
+        margin: 38px;
+        padding: 54px 28px;
+    }
+    .menu-list-item {
+        padding: 0px 20px;
+        width: 43%;
+        margin: 75px 0 0 0;
+    }
+    .contact {
+        padding: 32px 32px;
+    }
+    .contact .contact-calendar {
+        padding: 8px 22px 20px;
+    }
+    .contact .contact-position {
+        padding: 3px 20px;
+    }
+    .contact .contact-heading {
+        padding: 2px 16px 16px;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width: 739px) {
+    .slide {
+        padding-top: 100%;
+    }
+    .about-decs.separator {
+        margin-left: 16%;
+        display: none;
+    }
+    .main-content .about-dish {
+        margin: 25px 0;
+        width: 100%;
+    }
+    .main-content {
+        padding: 60px 0;
+    }
+    .main-content .about-dish-list {
+        padding: 0 39px;
+    }
+    .main-content .about-heading {
+        font-size: 36px;
+        line-height: 1.5;
+        color: #3E3E3E;
+        padding: 16px;
+    }
+    .place-list .place-text {
+        padding: 0;
+        width: 100%;
+    }
+    .place-list .place-img {
+        width: 90%;
+        padding: 5%;
+    }
+    .place-list .place-img .place-2-pc {
+        display: none;
+    }
+    .menu {
+        padding: 27px;
+        margin: 47px 23px 23px;
+    }
+    .menu-list-item {
+        width: 100%;
+        padding: 0
+    }
+    .menu .menu-list-heading {
+        font-size: 41px;
+        color: #FD813F;
+        font-weight: 200;
+        text-align: center;
+    }
+    .menu .menu-item-spanrice {
+        position: absolute;
+        right: 0;
+        top: 37px;
+    }
+    .contact {
+        padding: 32px 26px;
+    }
+    .contact .contact-address {
+        margin: 0;
+        width: 100%;
+    }
+    .contact .contact-calendar {
+        padding: 16px;
+        overflow: hidden;
+    }
+    .contact .contact-position {
+        padding: 16px;
+        line-height: 2.5;
+    }
+    .contact .contact-map {
+        margin: 32px 0 0;
+        width: 100%;
+    }
+    .footer {
+        height: 60px;
+        padding: 19px;
+        display: block;
+    }
+    .footer .icon {
+        position: absolute;
+        /* right: 32px; */
+        display: block;
+        bottom: 6%;
+        left: 40%;
+        right: 0;
+    }
+    .footer .gpkd {
+        position: absolute;
+        left: 36%;
+        display: block;
+        top: 35%;
+    }
+    .footer .slogan {
+        top: 6%;
+    }
+}
